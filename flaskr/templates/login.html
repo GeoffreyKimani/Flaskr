@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1> {% block title %} {{ title }} {% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        {#   username     #}
+        <label for="username">Username</label>
+        <input name="username" id="username" required>
+
+        {#   password     #}
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        {#  submit btn   #}
+        <input type="submit" value="Log In">
+    </form>
+{% endblock %}

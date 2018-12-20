@@ -1,0 +1,1 @@
+For full tutorial guide follow the link: **http://flask.pocoo.org/docs/1.0/tutorial/**
